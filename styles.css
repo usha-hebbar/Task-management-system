@@ -28,7 +28,7 @@ header {
   padding: 1rem;
 }
 .mutlicolor{
-  background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+  background-image: linear-gradient(to left,green,violet, indigo,green,red, blue, yellow,red,blue);
         -webkit-background-clip: text;
         -moz-background-clip: text;
         background-clip: text;

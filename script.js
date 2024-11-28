@@ -125,7 +125,7 @@ function updateDashboard() {
   // Display the Upcoming section only if there are upcoming tasks
   if (upcomingTasks.length > 0) {
     const upcomingSection = document.createElement('div');
-    upcomingSection.innerHTML = '<h4><u>Upcoming Tasks</u></h4>';
+    upcomingSection.innerHTML = '<h4><u>Upcoming Tasks:</u></h4>';
     upcomingTasks.forEach(task => upcomingSection.appendChild(task));
     upcoming.appendChild(upcomingSection);
   }
@@ -133,7 +133,7 @@ function updateDashboard() {
   // Display the Overdue section only if there are overdue tasks
   if (overdueTasks.length > 0) {
     const overdueSection = document.createElement('div');
-    overdueSection.innerHTML = '<h4><u>Overdue Tasks</u></h4>';
+    overdueSection.innerHTML = '<h4><u>Overdue Tasks:</u></h4>';
     overdueTasks.forEach(task => overdueSection.appendChild(task));
     overdue.appendChild(overdueSection);
   }
@@ -141,7 +141,7 @@ function updateDashboard() {
   // Display the Completed section only if there are completed tasks
   if (completedTasks.length > 0) {
     const completedSection = document.createElement('div');
-    completedSection.innerHTML = '<h4><u>Completed Tasks</u></h4>';
+    completedSection.innerHTML = '<h4><u>Completed Tasks:</u></h4>';
     completedTasks.forEach(task => completedSection.appendChild(task));
     completed.appendChild(completedSection);
   }
